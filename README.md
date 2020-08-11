@@ -1,2 +1,2 @@
 # vision-datasets
-The preprocessing of different vision datasets
+Reorganizing different vision datasets to a Pytorch Style.
