@@ -1,4 +1,4 @@
-Steps:
+###Steps:
 1. Download Dataset: https://tiny-imagenet.herokuapp.com/
 2. Unzip tiny-imagenet--200
 3. run train_preprocessing.py and val_preprocessing.py
