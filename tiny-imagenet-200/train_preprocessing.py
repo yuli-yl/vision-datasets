@@ -1,4 +1,5 @@
 
+# reorganize the training folder into a pytorch style.
 import io
 import pandas as pd
 import glob
@@ -19,8 +20,9 @@ for class_path in classes:
 		print (path)
 		if 'txt'in path:
 			os.remove(path)
-		else:
+		elif 'images' in path:
 			for f in os.listdir(path):
 				move(os.path.join(path, f), class_path)
+			os.rmdir(path)
 
-				
+
